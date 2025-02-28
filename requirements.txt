@@ -1,0 +1,19 @@
+flake8
+interrogate
+isort==4.3.21
+lxml
+matplotlib
+# mmcv-full==1.3.13
+numba
+numpy
+prettytable
+# pycocotools==2.0.2
+pycocotools
+rich
+scikit-image==0.18.3
+scipy
+yapf
+tensorboard
+future
+albumentations
+yapf==0.40.1
