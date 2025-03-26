@@ -69,17 +69,8 @@ data
     ├── test
     ├── only-train_t12_v4_train_c300.txt
     ├── only-train_t12_v4_test_c0.txt
-    └── only-train_t12_v4_val_c0.txt   
- ── conic   
-    ├── conic
-        ├── by-nc-sa.md
-        ├── counts.csv
-        ├── images.npy
-        ├── labels.npy
-        ├── patch_info.csv
-        └── README.txt
-    ├── train
-    └── val
+    └── only-train_t12_v4_val_c0.txt
+
 ```
 
 ## MoNuSeg Nuclei Segmentation Dataset
@@ -114,9 +105,3 @@ python tools/convert_dataset/monuseg.py data/monuseg only-train_t12_v4 -w 512 -s
 2. Get `OSCD.zip` from [BaiduNetDisk](https://pan.baidu.com/s/1p2KOYFhLWFfbmMBLpxbVMA);
 3. Uncompressed `OSCD.zip` into `data/oscd`
 4. Run conversion script: `python tools/convert_dataset/oscd.py data/oscd --nproc 8`;
-
-## CONIC Nuclei Segmentation Dataset
-
-1. Download CONIC from [homepage](https://drive.google.com/drive/folders/1il9jG7uA4-ebQ_lNmXbbF2eOK9uNwheb)
-2. put CoNIC Challenge Train into `data/conic`
-3. Run conversion script: `python tools/convert_dataset/conic.py data/conic`;
