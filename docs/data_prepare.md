@@ -48,15 +48,6 @@ data
 │   ├── train.txt
 │   └── test.txt
 |
-├── oscd
-│   ├── OSCD
-|   │   ├── coco_carton
-|   │   └── labelme
-│   ├── annotations
-│   ├── images
-│   ├── train.txt
-│   └── test.txt
-│
 └── monuseg
     ├── MoNuSeg
     │   ├── MoNuSeg 2018 Training Data
@@ -97,11 +88,6 @@ python tools/convert_dataset/monuseg.py data/monuseg only-train_t12_v4 -w 512 -s
 
 1. Download CoNSeP dataset from [homepage](https://warwick.ac.uk/fac/cross_fac/tia/data/hovernet/);
 2. Uncompress them into `data/consep`;
-3. Run convertion script: `python tools/convert_dataset/consep.py data/consep -c 300`;
+3. Run convertion script: `python tools/convert_dataset/consep.py data/consep -c 300`.
 
-## OCSD Carton Segmentation Dataset
 
-1. Download OCSD from [homepage](https://github.com/yancie-yjr/scd.github.io);
-2. Get `OSCD.zip` from [BaiduNetDisk](https://pan.baidu.com/s/1p2KOYFhLWFfbmMBLpxbVMA);
-3. Uncompressed `OSCD.zip` into `data/oscd`
-4. Run conversion script: `python tools/convert_dataset/oscd.py data/oscd --nproc 8`;
