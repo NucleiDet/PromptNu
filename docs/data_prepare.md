@@ -26,7 +26,6 @@ data
 │   ├── train.txt
 │   └── test.txt
 │
-│
 |
 └── monuseg
     ├── MoNuSeg
@@ -43,6 +42,15 @@ data
     └── only-train_t12_v4_val_c0.txt
 ```
 
+## CoNSeP Nuclei Segmentation Dataset
+
+***!!Attention*** part of nuclei tissue images may have 4 channels (R, G, B, Alpha)
+
+1. Download CoNSeP dataset from [homepage](https://warwick.ac.uk/fac/cross_fac/tia/data/hovernet/);
+2. Uncompress them into `data/consep`;
+3. Run convertion script: `python tools/convert_dataset/consep.py data/consep -c 300`.
+
+
 ## MoNuSeg Nuclei Segmentation Dataset
 
 1. Download train cohort `"MoNuSeg 2018 Training Data.zip"` and test cohort `"MoNuSegTestData.zip"` from [this](https://monuseg.grand-challenge.org/Data/);
@@ -54,13 +62,4 @@ data
 # only-train_t12_v4 (our split)  window_size=512 step_size=256
 python tools/convert_dataset/monuseg.py data/monuseg only-train_t12_v4 -w 512 -s 256
 ```
-
-## CoNSeP Nuclei Segmentation Dataset
-
-***!!Attention*** part of nuclei tissue images may have 4 channels (R, G, B, Alpha)
-
-1. Download CoNSeP dataset from [homepage](https://warwick.ac.uk/fac/cross_fac/tia/data/hovernet/);
-2. Uncompress them into `data/consep`;
-3. Run convertion script: `python tools/convert_dataset/consep.py data/consep -c 300`.
-
 
