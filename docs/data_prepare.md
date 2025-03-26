@@ -27,26 +27,6 @@ data
 │   └── test.txt
 │
 │
-├── cpm17
-│   ├── CPM17
-│   │    ├── test
-│   │    │   ├── Images
-│   │    │   │   └── xxx.png
-│   │    │   ├── Labels
-│   │    │   │   └── xxx.mat
-│   │    │   └── Overlay
-│   │    │       └── xxx.png
-│   │    └── train
-│   │        ├── Images
-│   │        │   └── xxx.png
-│   │        ├── Labels
-│   │        │   └── xxx.mat
-│   │        └── Overlay
-│   │            └── xxx.png
-│   ├── train
-│   ├── test
-│   ├── train.txt
-│   └── test.txt
 |
 └── monuseg
     ├── MoNuSeg
@@ -61,7 +41,6 @@ data
     ├── only-train_t12_v4_train_c300.txt
     ├── only-train_t12_v4_test_c0.txt
     └── only-train_t12_v4_val_c0.txt
-
 ```
 
 ## MoNuSeg Nuclei Segmentation Dataset
@@ -75,12 +54,6 @@ data
 # only-train_t12_v4 (our split)  window_size=512 step_size=256
 python tools/convert_dataset/monuseg.py data/monuseg only-train_t12_v4 -w 512 -s 256
 ```
-
-## CPM17 Nuclei Segmentation Dataset
-
-1. Download cpm17 whole folder from [goole drive](https://drive.google.com/drive/folders/1l55cv3DuY-f7-JotDN7N5nbNnjbLWchK);
-2. Put it into `data/cpm17/CPM17`;
-3. Run convertion script: `python tools/convert_dataset/cpm17.py data/cpm17 -c 300`;
 
 ## CoNSeP Nuclei Segmentation Dataset
 
