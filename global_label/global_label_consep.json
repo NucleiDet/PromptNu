@@ -1,0 +1,218 @@
+[
+    {
+        "id": ["train_1"],
+        "color": ["deep purple"],
+        "size": ["small"],
+        "density": ["densely packed"],
+        "arrange": ["columnar", "scattered"],
+        "shape": ["elliptical/oval", "irregular"]
+    },
+    {
+        "id": ["train_2"],
+        "color": ["deep purple"],
+        "size": ["small", "medium"],
+        "density": ["moderately dense"],
+        "arrange": ["scattered"],
+        "shape": ["elliptical/oval", "irregular"]
+    },
+    {
+        "id": ["train_3"],
+        "color": ["deep purple"],
+        "size": ["small", "medium"],
+        "density": ["densely packed"],
+        "arrange": ["scattered", "irregular"],
+        "shape": ["elliptical/oval", "irregular"]
+    },
+    {
+        "id": ["train_4"],
+        "color": ["deep purple"],
+        "size": ["small"],
+        "density": ["sparsely distributed"],
+        "arrange": ["parallel"],
+        "shape": ["elongated", "spindle-shaped"]
+    },
+    {
+        "id": ["train_5"],
+        "color": ["deep purple"],
+        "size": ["small", "medium"],
+        "density": ["sparsely distributed"],
+        "arrange": ["peripheral"],
+        "shape": ["elliptical/oval"]
+    },
+    {
+        "id": ["train_6"],
+        "color": ["deep purple"],
+        "size": ["small", "medium"],
+        "density": ["densely packed"],
+        "arrange": ["radial"],
+        "shape": ["elliptical/oval"]
+    },
+    {
+        "id": ["train_7"],
+        "color": ["deep purple"],
+        "size": ["small", "medium", "large"],
+        "density": ["densely packed"],
+        "arrange": ["scattered", "irregular"],
+        "shape": ["elliptical/oval", "irregular"]
+    },
+    {
+        "id": ["train_8"],
+        "color": ["deep purple"],
+        "size": ["small", "medium", "large"],
+        "density": ["densely packed"],
+        "arrange": ["parallel"],
+        "shape": ["elliptical/oval"]
+    },
+    {
+        "id": ["train_9"],
+        "color": ["deep purple"],
+        "size": ["small"],
+        "density": ["densely packed"],
+        "arrange": ["parallel"],
+        "shape": ["elliptical/oval"]
+    },
+    {
+        "id": ["train_10"],
+        "color": ["deep purple"],
+        "size": ["small", "medium"],
+        "density": ["densely packed"],
+        "arrange": ["radial"],
+        "shape": ["elliptical/oval"]
+    },
+    {
+        "id": ["train_11"],
+        "color": ["deep purple"],
+        "size": ["small", "medium", "large"],
+        "density": ["moderately dense"],
+        "arrange": ["parallel"],
+        "shape": ["elongated", "spindle-shaped"]
+    },
+    {
+        "id": ["train_12"],
+        "color": ["deep purple"],
+        "size": ["small", "medium"],
+        "density": ["moderately dense"],
+        "arrange": ["scattered"],
+        "shape": ["elliptical/oval", "irregular"]
+    },
+    {
+        "id": ["train_13"],
+        "color": ["deep purple"],
+        "size": ["small", "medium"],
+        "density": ["densely packed"],
+        "arrange": ["columnar"],
+        "shape": ["elliptical/oval"]
+    },
+    {
+        "id": ["train_14"],
+        "color": ["deep purple"],
+        "size": ["small", "medium"],
+        "density": ["densely packed"],
+        "arrange": ["columnar"],
+        "shape": ["elliptical/oval"]
+    },
+    {
+        "id": ["train_15"],
+        "color": ["deep purple"],
+        "size": ["small", "medium"],
+        "density": ["moderately dense"],
+        "arrange": ["scattered"],
+        "shape": ["elliptical/oval", "spherical"]
+    },
+    {
+        "id": ["train_16"],
+        "color": ["deep purple"],
+        "size": ["small"],
+        "density": ["moderately dense"],
+        "arrange": ["peripheral", "parallel"],
+        "shape": ["elliptical/oval", "irregular"]
+    },
+    {
+        "id": ["train_17"],
+        "color": ["deep purple"],
+        "size": ["small", "medium"],
+        "density": ["densely packed"],
+        "arrange": ["columnar"],
+        "shape": ["elliptical/oval"]
+    },
+    {
+        "id": ["train_18"],
+        "color": ["deep purple"],
+        "size": ["small"],
+        "density": ["densely packed"],
+        "arrange": ["scattered"],
+        "shape": ["spherical"]
+    },
+    {
+        "id": ["train_19"],
+        "color": ["deep purple"],
+        "size": ["small", "medium"],
+        "density": ["densely packed"],
+        "arrange": ["columnar"],
+        "shape": ["elliptical/oval"]
+    },
+    {
+        "id": ["train_20"],
+        "color": ["deep purple"],
+        "size": ["small", "medium"],
+        "density": ["densely packed"],
+        "arrange": ["columnar"],
+        "shape": ["elliptical/oval"]
+    },
+    {
+        "id": ["train_21"],
+        "color": ["deep purple"],
+        "size": ["small", "medium"],
+        "density": ["moderately dense"],
+        "arrange": ["parallel"],
+        "shape": ["elliptical/oval", "spindle-shaped"]
+    },
+    {
+        "id": ["train_22"],
+        "color": ["deep purple"],
+        "size": ["small", "medium"],
+        "density": ["densely packed"],
+        "arrange": ["scattered"],
+        "shape": ["elliptical/oval"]
+    },
+    {
+        "id": ["train_23"],
+        "color": ["deep purple"],
+        "size": ["small"],
+        "density": ["densely packed"],
+        "arrange": ["scattered"],
+        "shape": ["elliptical/oval", "spherical"]
+    },
+    {
+        "id": ["train_24"],
+        "color": ["deep purple"],
+        "size": ["small", "medium"],
+        "density": ["densely packed"],
+        "arrange": ["columnar", "parallel"],
+        "shape": ["elliptical/oval"]
+    },
+    {
+        "id": ["train_25"],
+        "color": ["deep purple"],
+        "size": ["small"],
+        "density": ["sparsely distributed"],
+        "arrange": ["peripheral"],
+        "shape": ["elliptical/oval"]
+    },
+    {
+        "id": ["train_26"],
+        "color": ["deep purple"],
+        "size": ["small"],
+        "density": ["moderately dense"],
+        "arrange": ["peripheral", "parallel"],
+        "shape": ["elliptical/oval", "spherical"]
+    },
+    {
+        "id": ["train_27"],
+        "color": ["deep purple"],
+        "size": ["small", "medium"],
+        "density": ["sparsely distributed"],
+        "arrange": ["scattered"],
+        "shape": ["elliptical/oval", "spherical"]
+    }
+]
