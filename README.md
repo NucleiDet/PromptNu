@@ -1,4 +1,14 @@
 # Prompting Vision-Language Model for Nuclei Instance Segmentation and Classification
+Welcome to the official PyTorch implementation of the paper: **Prompting Vision-Language Model for Nuclei Instance Segmentation and Classification**.
+
+
+By  Jieru Yao, Guangyu Guo, Dingwen Zhang, Qiang Xie, Longfei Han, Zhaohui Zheng, Junwei Han.
+
+![framework](https://github.com/NucleiDet/PromptNu/blob/master/img/framework.jpg?raw=true)
+
+In our paper, we build a novel framework, called PromptNu, aiming at infusing abundant nuclei knowledge into the training of the nuclei instance recognition model through vision-language contrastive learning and prompt engineering techniques. Comprehensive experiments on six datasets with extensive WSI scenarios demonstrate the effectiveness of our method for both nuclei instance segmentation and classification tasks.
+
+![results](https://github.com/NucleiDet/PromptNu/blob/master/img/visualization.jpg?raw=true)
 
 ## Requirements
 - CUDA 11.3
