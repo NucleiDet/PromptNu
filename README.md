@@ -5,11 +5,11 @@ Welcome to the official PyTorch implementation of the paper:
 
 **Authors**: Jieru Yao, Guangyu Guo, Dingwen Zhang, Qiang Xie, Longfei Han, Zhaohui Zheng, Junwei Han.
 
-## **Abstract**
-In this work, we introduce **PromptNu**, a novel framework designed to incorporate abundant nuclei knowledge into the training of nuclei instance recognition models. By leveraging **vision-language contrastive learning** and **prompt engineering techniques**, our method significantly improves the performance of nuclei instance segmentation and classification tasks. Extensive experiments conducted across six datasets, including various Whole Slide Imaging (WSI) scenarios, demonstrate the effectiveness of our approach.
-
 ![Model Framework](https://github.com/NucleiDet/PromptNu/blob/master/img/framework.jpg?raw=true)  
 *Figure 1: Overview of the proposed model architecture.*
+
+## **Abstract**
+In this work, we introduce **PromptNu**, a novel framework designed to incorporate abundant nuclei knowledge into the training of nuclei instance recognition models. By leveraging **vision-language contrastive learning** and **prompt engineering techniques**, our method significantly improves the performance of nuclei instance segmentation and classification tasks. Extensive experiments conducted across six datasets, including various Whole Slide Imaging (WSI) scenarios, demonstrate the effectiveness of our approach.
 
 ![Results Visualization](https://github.com/NucleiDet/PromptNu/blob/master/img/visualization.jpg?raw=true)  
 *Figure 2: Visualization of results on various datasets.*
