@@ -35,3 +35,10 @@ python tools/test.py [config_path]
 ./tools/dist_test.py [config_path] [num_gpu]
 ```
 
+### Citation
+@article{yao2025promptnu,
+  title = {Prompting Vision-Language Model for Nuclei Instance Segmentation and Classification},
+  author = {Jieru Yao and Guangyu Guo and Dingwen Zhang and Qiang Xie and Longfei Han and Zhaohui Zheng and Junwei Han},
+  year = {2025},
+}
+
