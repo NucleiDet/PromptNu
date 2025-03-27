@@ -1,28 +1,37 @@
-# Prompting Vision-Language Model for Nuclei Instance Segmentation and Classification
-Welcome to the official PyTorch implementation of the paper: **Prompting Vision-Language Model for Nuclei Instance Segmentation and Classification**.
+# **Prompting Vision-Language Model for Nuclei Instance Segmentation and Classification**
 
+Welcome to the official PyTorch implementation of the paper:  
+**Prompting Vision-Language Model for Nuclei Instance Segmentation and Classification**
 
-By  Jieru Yao, Guangyu Guo, Dingwen Zhang, Qiang Xie, Longfei Han, Zhaohui Zheng, Junwei Han.
+**Authors**: Jieru Yao, Guangyu Guo, Dingwen Zhang, Qiang Xie, Longfei Han, Zhaohui Zheng, Junwei Han.
 
-![framework](https://github.com/NucleiDet/PromptNu/blob/master/img/framework.jpg?raw=true)
+## **Abstract**
+In this work, we introduce **PromptNu**, a novel framework designed to incorporate abundant nuclei knowledge into the training of nuclei instance recognition models. By leveraging **vision-language contrastive learning** and **prompt engineering techniques**, our method significantly improves the performance of nuclei instance segmentation and classification tasks. Extensive experiments conducted across six datasets, including various Whole Slide Imaging (WSI) scenarios, demonstrate the effectiveness of our approach.
 
-In our paper, we build a novel framework, called PromptNu, aiming at infusing abundant nuclei knowledge into the training of the nuclei instance recognition model through vision-language contrastive learning and prompt engineering techniques. Comprehensive experiments on six datasets with extensive WSI scenarios demonstrate the effectiveness of our method for both nuclei instance segmentation and classification tasks.
+![Model Framework](https://github.com/NucleiDet/PromptNu/blob/master/img/framework.jpg?raw=true)  
+*Figure 1: Overview of the proposed model architecture.*
 
-![results](https://github.com/NucleiDet/PromptNu/blob/master/img/visualization.jpg?raw=true)
+![Results Visualization](https://github.com/NucleiDet/PromptNu/blob/master/img/visualization.jpg?raw=true)  
+*Figure 2: Visualization of results on various datasets.*
 
-## Requirements
-- CUDA 11.3
-- Python 3.8.x
-- PyTorch 1.11.0
+## **Requirements**
+Ensure your environment is set up with the following dependencies:
+
+- **CUDA**: 11.3
+- **Python**: 3.8.x
+- **PyTorch**: 1.11.0
 
 ## Installation
+Follow these steps to set up the environment and install necessary dependencies:
+
 1. Install MMCV-full (Linux recommend): `pip install MMCV-full==1.3.13`;
 2. Install requirements package: `pip install -r requirements.txt`;
 3. Install tiseg: `pip install -e .`;
 4. Install CLIP: `cd CLIP & pip install -e .`.
 
 ## Dataset Prepare 
-Please check this [doc](./docs/data_prepare.md)
+Please check this 
+Please refer to the Dataset Preparation [Documentation](./docs/data_prepare.md) for detailed instructions on how to prepare the datasets.
 
 ## Usage
 ### Training 
@@ -45,7 +54,9 @@ python tools/test.py [config_path]
 ./tools/dist_test.py [config_path] [num_gpu]
 ```
 
-### Citation
+## Citation
+If you find this repository useful for your research, please cite our work as follows:
+
 ```
 @article{yao2025promptnu,
   title = {Prompting Vision-Language Model for Nuclei Instance Segmentation and Classification},
