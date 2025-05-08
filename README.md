@@ -29,9 +29,13 @@ Follow these steps to set up the environment and install necessary dependencies:
 3. Install tiseg: `pip install -e .`;
 4. Install CLIP: `cd CLIP & pip install -e .`.
 
+For the specific versions of Python, CUDA, and PyTorch, along with download links and installation commands, please refer to the [Environment Installation](https://github.com/NucleiDet/PromptNu/blob/master/docs/environment_installation.md) folder.
+
+Alternatively, you can use our pre-built Docker image, which includes all necessary code and dependencies. Download and run the container directly from [Docker](https://pan.baidu.com/s/1kqd2HzmfW8wRnOEQYoqnIA?pwd=erx2)
+
 ## Dataset Prepare 
 Please check this 
-Please refer to the Dataset Preparation [Documentation](./docs/data_prepare.md) for detailed instructions on how to prepare the datasets.
+Please refer to the [Dataset Preparation](./docs/data_prepare.md) for detailed instructions on how to prepare the datasets.
 
 ## Usage
 ### Training 
