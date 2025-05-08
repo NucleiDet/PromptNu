@@ -15,20 +15,25 @@ This guide outlines the exact versions of Python, CUDA, and PyTorch, along with 
    conda create -n promptnu python=3.8 -y
    conda activate promptnu
 
-4. **Install PyTorch (with CUDA 11.3):**
-pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
+4. **Install PyTorch:**
+   ```bash
+   pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
 
 5. **Install MMCV:**
-pip install mmcv-full==1.3.13 -f https://download.openmmlab.com/mmcv/dist/cu113/torch1.11.0/index.html
+   ```bash
+   pip install mmcv-full==1.3.13 -f https://download.openmmlab.com/mmcv/dist/cu113/torch1.11.0/index.html
 
 6. **Install Python dependencies:**
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
-7. **Install the core codebase:**
-pip install -e .
+7. **Install the tiseg:**
+   ```bash
+   pip install -e .
 
 8. **Install the CLIP module:**
-cd CLIP && pip install -e .
+   ```bash
+   cd CLIP && pip install -e .
 
 ## Setting up for CUDA 11.1
 
@@ -44,19 +49,24 @@ The project is also compatible with CUDA 11.1. The corresponding steps for setti
    conda create -n promptnu python=3.8 -y
    conda activate promptnu
 
-4. **Install PyTorch (with CUDA 11.3):**
-pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch\_stable.html
+4. **Install PyTorch:**
+   ```bash
+   pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch\_stable.html
 
 5. **Install MMCV:**
-pip install mmcv-full==1.3.13 -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.9.0/index.html
+   ```bash
+   pip install mmcv-full==1.3.13 -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.9.0/index.html
 
 6. **Install Python dependencies:**
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
-7. **Install the core codebase:**
-pip install -e .
+7. **Install the tiseg:**
+   ```bash
+   pip install -e .
 
 8. **Install the CLIP module:**
-cd CLIP && pip install -e .
+   ```bash
+   cd CLIP && pip install -e .
 
 
