@@ -1,9 +1,9 @@
-# **Prompting Vision-Language Model for Nuclei Instance Segmentation and Classification**
+# **PromptNu**
 
-Welcome to the official PyTorch implementation of the paper:  
-**Prompting Vision-Language Model for Nuclei Instance Segmentation and Classification**
+The official PyTorch implementation of the TMI paper:  
+**[Prompting Vision-Language Model for Nuclei Instance Segmentation and Classification](https://ieeexplore.ieee.org/document/11050438)**
 
-**Authors**: Jieru Yao, Guangyu Guo, Dingwen Zhang, Qiang Xie, Longfei Han, Zhaohui Zheng, Junwei Han.
+**Authors**: Jieru Yao, Guangyu Guo, Zhaohui Zheng, Qiang Xie, Longfei Han, Dingwen Zhang, Junwei Han.
 
 ![Model Framework](https://github.com/NucleiDet/PromptNu/blob/master/img/framework.jpg?raw=true)  
 *Figure 1: Overview of the proposed model architecture.*
@@ -63,8 +63,13 @@ If you find this repository useful for your research, please cite our work as fo
 
 ```
 @article{yao2025promptnu,
-  title = {Prompting Vision-Language Model for Nuclei Instance Segmentation and Classification},
-  author = {Jieru Yao and Guangyu Guo and Dingwen Zhang and Qiang Xie and Longfei Han and Zhaohui Zheng and Junwei Han},
-  year = {2025}
-}
+  author={Yao, Jieru and Guo, Guangyu and Zheng, Zhaohui and Xie, Qiang and Han, Longfei and Zhang, Dingwen and Han, Junwei},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={Prompting Vision-Language Model for Nuclei Instance Segmentation and Classification}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TMI.2025.3579214}}
+
 ```
